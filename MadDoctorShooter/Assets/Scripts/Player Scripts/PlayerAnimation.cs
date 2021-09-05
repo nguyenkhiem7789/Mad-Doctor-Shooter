@@ -13,6 +13,8 @@ public class PlayerAnimation : MonoBehaviour
     private void Awake()
     {
         anim = GetComponent<Animator>();
+        if (anim == null)
+            anim = GetComponentInChildren<Animator>();
     }
 
     public void PlayAnimation(string animationName)

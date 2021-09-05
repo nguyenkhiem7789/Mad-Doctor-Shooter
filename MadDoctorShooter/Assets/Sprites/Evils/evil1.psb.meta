@@ -93,8 +93,8 @@ ScriptedImporter:
   rigSpriteImportData:
   - name: right_hand_down
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.4999997, y: 0.90004057}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -864,8 +864,8 @@ ScriptedImporter:
     uvTransform: {x: 378, y: 0}
   - name: right_hand_up
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.79268533, y: 0.7395774}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1437,12 +1437,12 @@ ScriptedImporter:
     uvTransform: {x: 284, y: 31}
   - name: header
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.48275265, y: 0.1352636}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 246
+      x: 245
       y: 4
       width: 124
       height: 129
@@ -2186,8 +2186,8 @@ ScriptedImporter:
     uvTransform: {x: 246, y: -248}
   - name: body
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5187233, y: 0.1628887}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3111,8 +3111,8 @@ ScriptedImporter:
     uvTransform: {x: -149, y: 7}
   - name: left_hand_up
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.19816782, y: 0.73353195}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3664,13 +3664,13 @@ ScriptedImporter:
     uvTransform: {x: 33, y: -104}
   - name: left_hand_down
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.28515014, y: 0.79931474}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 182
-      y: 185
+      y: 184
       width: 100
       height: 109
     spriteID: 2d86b4c0d72ef9f4bb8ad1e643f292fa
@@ -4260,12 +4260,12 @@ ScriptedImporter:
     uvTransform: {x: -170, y: 14}
   - name: left_leg
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.46817017, y: 0.8292715}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 182
+      x: 183
       y: 302
       width: 75
       height: 58
@@ -4820,8 +4820,8 @@ ScriptedImporter:
     uvTransform: {x: 60, y: 298}
   - name: right_leg
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.48938966, y: 0.7881122}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5390,8 +5390,8 @@ ScriptedImporter:
     uvTransform: {x: 168, y: 202}
   - name: weapon
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.2007476, y: 0.3252133}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6514,7 +6514,7 @@ ScriptedImporter:
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -6525,7 +6525,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: Standalone
     overridden: 0
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -6536,7 +6536,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: WebGL
     overridden: 0
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1

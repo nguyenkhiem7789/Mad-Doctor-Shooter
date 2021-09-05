@@ -33,6 +33,9 @@ public class Enemy : MonoBehaviour
     private RectTransform healthBarTransform;
     private Vector3 healthBarTempScale;
 
+    [SerializeField]
+    private bool isReverse = false;
+
     private void Awake()
     {
         playerTarget = GameObject.FindWithTag(TagManager.PLAYER_TAG).transform;
@@ -66,9 +69,9 @@ public class Enemy : MonoBehaviour
     {
         tempScale = transform.localScale;
         if (transform.position.x > playerTarget.position.x)
-            tempScale.x = Mathf.Abs(tempScale.x);
+            tempScale.x = this.isReverse ? -Mathf.Abs(tempScale.x) : Mathf.Abs(tempScale.x);
         else
-            tempScale.x = -Mathf.Abs(tempScale.x);
+            tempScale.x = this.isReverse ? Mathf.Abs(tempScale.x) : - Mathf.Abs(tempScale.x);
         transform.localScale = tempScale;
 
         healthBarTempScale = healthBarTransform.localScale;
